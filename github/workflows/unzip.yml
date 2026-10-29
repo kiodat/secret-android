@@ -6,7 +6,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Unzip files
-        run: unzip Secret_Android.zip
+        run: unzip *.zip
       - name: Commit and Push
         run: |
           git config --global user.name "GitHub Action"
