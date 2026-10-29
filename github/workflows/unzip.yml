@@ -1,5 +1,7 @@
 name: Unzip Project
 on: [push]
+permissions:
+  contents: write
 jobs:
   unzip:
     runs-on: ubuntu-latest
